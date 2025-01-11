@@ -39,7 +39,7 @@ The credential helper generate bearer token, save and erase.
 %configure --disable-hardcode-libs --disable-install-oclib
 
 %build
-%make_build LDFLAGS=-no-install
+%make_build 
 
 %install
 %make_install SKIP_LOCPATH_INSTALL=yes
